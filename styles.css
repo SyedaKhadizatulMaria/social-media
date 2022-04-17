@@ -1,0 +1,253 @@
+body{
+    background-color: #f1f3f4;
+}
+.my_shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.my_navbar{
+    background-color: #4d636f;
+}
+.navbar-brand{
+    font-size: 1rem;
+    height: 47px;
+    width: 115px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    background-color: #3A4B53;
+}
+.navbar-brand:hover,
+.navbar-brand:hover span,
+.navbar-brand:hover .home_icon
+{
+    background-color: white;
+    color: black;
+}
+
+.my_navbar_mq{
+    display: none;
+}
+.avatar_2{
+    width: 25px;
+}
+.my_notification:hover{
+    display: block;
+}
+.my_nav_icon{
+    color: white;
+    padding: 16px;
+}
+.nav-item>a:hover .my_nav_icon,  .my_navbar>a:hover{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 16px;
+}
+/* .nav-item>a>.my_nav_icon:hover{
+    color: black;
+} */
+/* .my_navbar>li:hover {
+    background-color: white;
+} */
+.fa-bell{
+    position: relative;
+}
+.badge{
+    top: 7;
+    right: 4;
+}
+/* Left Section Starts Here */
+.my_card_body{
+    border-bottom: .3px solid rgba(128, 128, 128, 0.829);
+    margin-bottom: 18px;
+}
+.my_card_info span{
+    font-size: 18px;
+}
+
+.my_info_icon{
+    color:#7d97a5;
+    font-size: 14px;
+}
+.my_table{
+    background-color: #7d97a5;
+}
+
+.my_table td {
+    border: none;
+    
+}
+.notcollapse {
+    color: white;
+}
+.my_table .my_table_tr:hover td{
+    background-color:rgb(204,204,204);
+    color: black;
+}
+.my_interest{
+
+}
+.badge{
+    color: white;
+}
+.badge1{
+   background-color: #303E45; 
+}
+.badge2{
+    background-color: #3a4b53; 
+ }
+ .badge3{
+    background-color: #435761; 
+ }
+ .badge4{
+    background-color: #4d636f; 
+ }
+ .badge5{
+    background-color: #57707d; 
+ }
+ .badge6{
+    background-color: #607d8b; 
+ }
+ .badge7{
+    background-color: #9eb1bb; 
+ }
+ .badge8{
+    background-color: #becbd2; 
+    color: black;
+ }
+ .badge9{
+    background-color: #dfe5e8; 
+    color: black;
+ }
+ .badge10{
+    background-color: #edf0f1; 
+    color: black;
+ }
+ .badge11{
+    background-color: #ffffff; 
+    color: black;
+ }
+ /* Left Section Ends Here */
+
+
+
+ /* Middle Section Starts Here */
+ .btnpost{
+    background-color: #607d8b;
+    color: white;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+.avatar{
+    width: 60px;
+}
+.post_name p{
+    font-size: 20px;
+}
+.post_time p{
+    color: #6e6e6e;
+}
+.post_text{
+    border-top: 1px solid gray;
+}
+  /* Middle Section Ends Here */
+
+
+
+ /* Right Section Starts Here */
+.btn1, .btn2 {
+    color: white;
+    width: 75px;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+.btn1{
+    background-color: #94cf96;
+}
+.btn2{
+    background-color: #f88e86;
+}
+.btn1:hover,
+.btn2:hover,
+.btnpost:hover{
+    background-color: #DFE5E8;
+    color: black;
+}
+/* Right Section Ends Here */
+
+footer{
+    background-color: #435761;
+    color: white;
+}
+.copyright{
+    background-color: #303E45;
+    color: white;
+}
+.likerct{
+    color: #0472e5;
+    font-size: 20px;
+}
+.angryrct{
+    color: #e65606;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.loverct{
+    color: red;
+    font-size: 20px;
+}
+.othersrct{
+    color: #f7d646;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+.usercomment{
+    width: 35px;
+}
+.replypic{
+    width: 35px;
+}
+.my_reply_comment input{
+    position: relative;
+}
+.my_reply_comment i{
+    position: absolute;
+    right: 10;
+    top: 10;
+    
+}
+@media screen and (max-width: 575px) {
+    .my_navbar_mq{
+        display: block;
+        text-align: center;
+        color: white;
+    }
+    .likecommentshare, .commentshare{
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .friedreqbtn{
+        
+        margin-bottom: 10px;
+    }
+  }
+  /* @media screen and (max-width: 767px) and (min-width: 1300) {
+    .friedreqbtn{
+        display: block;
+        margin-bottom: 20px;
+    }
+  } */
